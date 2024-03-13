@@ -1,3 +1,4 @@
+using System.Collections.Concurrent;
 using CarRentalService.Core.Domain;
 using CarRentalService.Core.Entities;
 
@@ -9,7 +10,7 @@ public class VehicleReservationDataCustodian: IDataCustodian<VehicleReservation>
 
     public VehicleReservationDataCustodian()
     {
-        _data = new Dictionary<Guid, VehicleReservation>();
+        _data = new ConcurrentDictionary<Guid, VehicleReservation>();
     }
 
     public Guid Add(VehicleReservation vehicle)
