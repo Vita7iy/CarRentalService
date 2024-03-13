@@ -1,6 +1,7 @@
 using System.Text.Json.Serialization;
 using CarRentalService.Core.Domain;
 using CarRentalService.Core.Entities;
+using CarRentalService.Core.Entities.Vehicles;
 using CarRentalService.Core.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);

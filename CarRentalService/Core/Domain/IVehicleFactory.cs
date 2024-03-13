@@ -1,4 +1,5 @@
 using CarRentalService.Core.Infrastructure;
+using CarRentalService.Core.Infrastructure.Requests;
 
 namespace CarRentalService.Core.Domain;
 

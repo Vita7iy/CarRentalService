@@ -1,6 +1,6 @@
 using CarRentalService.Core.Domain;
 
-namespace CarRentalService.Core.Infrastructure;
+namespace CarRentalService.Core.Infrastructure.Requests;
 
 public class CarCreateRequest
 {

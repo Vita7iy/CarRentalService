@@ -1,7 +1,7 @@
 using CarRentalService.Core.Domain;
 using CarRentalService.Core.Entities;
 
-namespace CarRentalService.Core.Infrastructure;
+namespace CarRentalService.Core.Infrastructure.Requests;
 
 public class RentCarReservationRequestInfo: RentCarReservationInfo
 {

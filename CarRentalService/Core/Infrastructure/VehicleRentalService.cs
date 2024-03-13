@@ -1,5 +1,6 @@
 using CarRentalService.Core.Domain;
 using CarRentalService.Core.Entities;
+using CarRentalService.Core.Infrastructure.Requests;
 
 namespace CarRentalService.Core.Infrastructure;
 

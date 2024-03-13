@@ -1,6 +1,6 @@
 using CarRentalService.Core.Domain;
 
-namespace CarRentalService.Core.Entities;
+namespace CarRentalService.Core.Entities.Vehicles;
 
 public class TruckVehicle: BaseVehicle
 {

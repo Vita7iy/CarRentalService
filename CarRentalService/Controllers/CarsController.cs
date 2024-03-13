@@ -1,5 +1,6 @@
 using CarRentalService.Core.Domain;
 using CarRentalService.Core.Infrastructure;
+using CarRentalService.Core.Infrastructure.Requests;
 using Microsoft.AspNetCore.Mvc;
 
 namespace CarRentalService.Controllers;
